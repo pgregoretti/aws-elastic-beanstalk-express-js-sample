@@ -12,6 +12,7 @@
   },
   "license": "MIT-0",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "express": "^4.17.1"
   }
 }
