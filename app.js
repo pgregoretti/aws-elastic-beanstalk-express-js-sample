@@ -10,10 +10,7 @@ app.use('/assets', express.static(path.join(__dirname, 'assets')))
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, 'views/index.html'))
-  //res.sendFile(path.join(__dirname, 'views/test.html'))
 });
-
-//app.get('/', (req, res) => res.send("badabing badaboom"));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
